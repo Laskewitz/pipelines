@@ -2,8 +2,12 @@
 
 ## ⚙️ Git Integration
 
-- Documentation ([link](https://learn.microsoft.com/power-platform/alm/git-integration/connecting-to-git))
+- Documentation ([Link](https://learn.microsoft.com/power-platform/alm/git-integration/connecting-to-git))
 
 ## ⬇️ Setup
 
-Check the PowerShell script [here](./resources/create-pipelines-host.ps1) for the installation script.
+- PowerShell script ([Link](./resources/create-pipelines-host.ps1))
+
+## 1️⃣ Create Your First Pipeline
+
+- Provision Perfect Pipelines ([Link](https://www.burgersandbytes.nl/blog/20250225-provisionperfectpipeline/))
