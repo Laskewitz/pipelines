@@ -11,3 +11,7 @@
 ## 1️⃣ Create Your First Pipeline
 
 - Provision Perfect Pipelines ([Link](https://www.burgersandbytes.nl/blog/20250225-provisionperfectpipeline/))
+
+## 🔗 Social Links
+
+- Connect via [LinkedIn](https://linkedin.com/in/laskewitz)
