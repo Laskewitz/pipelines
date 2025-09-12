@@ -17,4 +17,7 @@ pac application install --application-name "msdyn_AppDeploymentAnchor"
 pac admin assign-group --role "Deployment Pipeline Administrator" --group $adminGroupId --group-name "Pipeline Administrators" --team-type "AadSecurityGroup" --membership-type "Members"
 pac admin assign-group --role "Deployment Pipeline User" --group $userGroupId --group-name "Pipeline Users" --team-type "AadSecurityGroup" --membership-type "Members"
 
-## Do other setup here, such as assigning security roles, configuring settings, etc.
+# Import solution with sample flows
+pac solution import --path ./resources/PipelinesExtensibilitySamples_1_0_0_1.zip
+
+## Do other setup here, such as configuring settings, import solutions, etc.
