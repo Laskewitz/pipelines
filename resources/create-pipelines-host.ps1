@@ -1,4 +1,4 @@
-$envName = "Pipelines-Host-Automated-Backup"
+$envName = "Pipelines-Host-Automated"
 $env = pac admin create --name $envName --type Production --json | ConvertFrom-Json
 $adminGroupId = "replace-with-your-admin-group-id";
 $userGroupId = "replace-with-your-user-group-id";
@@ -18,6 +18,6 @@ pac admin assign-group --role "Deployment Pipeline Administrator" --group $admin
 pac admin assign-group --role "Deployment Pipeline User" --group $userGroupId --group-name "Pipeline Users" --team-type "AadSecurityGroup" --membership-type "Members"
 
 # Import solution with sample flows
-pac solution import --path ./resources/PipelinesExtensibilitySamples_1_0_0_1.zip
+pac solution import --path ./PipelinesExtensibilitySamples_1_0_0_1.zip
 
-## Do other setup here, such as configuring settings, import solutions, etc.
+## Do other setup here, such as configuring settings, import other solutions, etc.
